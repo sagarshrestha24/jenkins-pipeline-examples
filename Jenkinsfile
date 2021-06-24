@@ -6,9 +6,9 @@ pipeline {
         jdk "Java-8"
     }
     environment{
-        DEVELOPERS_EMAIL="musema.hassen@gmail.com"
+        DEVELOPERS_EMAIL="sagar.shrestha@berrybytes.com"
         BUILD_FROM_BRANCH="master"
-        REPO_URL="https://github.com/musema/jenkins-pipeline-examples.git"
+        REPO_URL="https://github.com/sagarshrestha24/jenkins-pipeline-examples.git"
     }
     options{
         timeout(time:48,unit:'HOURS')
